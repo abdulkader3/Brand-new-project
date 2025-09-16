@@ -2,6 +2,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import './App.css'
 import Home from './Page/Home.jsx'
 import Layout from './Layout/Layout.jsx'
+import PageNotFound from './Page/PageNotFound.jsx'
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
         <Route path='/' element={<Layout/>}>
 
           <Route index element={<Home/>}/>
+
+          <Route path='*' element={<PageNotFound/>}/>
         
         </Route>
 
