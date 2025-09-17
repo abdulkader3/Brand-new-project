@@ -3,6 +3,7 @@ import './App.css'
 import Home from './Page/Home.jsx'
 import Layout from './Layout/Layout.jsx'
 import PageNotFound from './Page/PageNotFound.jsx'
+import Categories from './Categori/Categories.jsx'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' element={<Layout/>}>
 
           <Route index element={<Home/>}/>
+          <Route path='/all-categories' element={<Categories/>}/>
 
           <Route path='*' element={<PageNotFound/>}/>
         

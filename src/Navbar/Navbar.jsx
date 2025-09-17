@@ -14,12 +14,12 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <ul className="flex justify-between px-2 items-center py-2  bg-white">
+        <ul className="flex justify-between px-2 items-center py-2  bg-white lg:px-12">
 
           <li>
             <Link to="#">
               {" "}
-              <img className="w-[60px] md:w-[100px] lg:w-[200px] " src="photos/insparetionLogo.webp" alt="logo" />{" "}
+              <img className="w-[60px] md:w-[100px] " src="photos/insparetionLogo.webp" alt="logo" />{" "}
             </Link>
           </li>
 
@@ -27,7 +27,7 @@ const Navbar = () => {
           <li>
             <div className="Search relative">
               <input
-                className="bg-[#4c4c4c50] px-2 md:px-20 py-2 rounded-full outline-0 "
+                className="bg-[#4c4c4c50] px-2 md:px-20 lg:px-40 py-2 rounded-full outline-0 "
                 type="search"
                 placeholder="Search"
               />
@@ -64,57 +64,79 @@ const Navbar = () => {
               <p className="font-semibold" >ID: 002 21</p>
             </div>
             {/* name id */}
+            
             {/* Others links  */}
             <div className="Others-Links w-full mt-5 text-center ">
               {/* ...existing code... */}
-              <div className="LingBox mb-5 text-xl">
-                <div className=" white-line bg-white h-[2px] w-[250px] rounded-full "></div>
-              <div className="login-singUp my-2">
-                <Link className="flex text-[22px] item-center gap-5" to="#" > <CgProfile className="text-[28px] " /> <span>Login/Sing Up</span> </Link>
-              </div>
-              </div>
-              {/* ...existing code... */}
-              <div className="LingBox mb-5 text-xl">
-                <div className=" white-line bg-white h-[2px] w-[250px] rounded-full "></div>
-              <div className="login-singUp my-2">
-                <Link className="flex text-[22px] item-center gap-5" to="#" > <MdOutlineManageAccounts className="text-[28px] " /> <span>My Profile</span> </Link>
-              </div>
+              <div className="LingBox mb-5 text-base md:text-lg lg:text-xl">
+                <div className="white-line bg-white h-[2px] w-[180px] md:w-[220px] lg:w-[250px] rounded-full"></div>
+                <div className="login-singUp my-2">
+                  <Link className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="#">
+                    <CgProfile className="text-[20px] md:text-[24px] lg:text-[28px]" />
+                    <span>Login/Sing Up</span>
+                  </Link>
+                </div>
               </div>
               {/* ...existing code... */}
-              <div className="LingBox mb-5 text-xl">
-                <div className=" white-line bg-white h-[2px] w-[250px] rounded-full "></div>
-              <div className="login-singUp my-2">
-                <Link className="flex text-[22px] item-center gap-5" to="#" > <MdOutlineNotificationsNone className="text-[28px] " /> <span>Notification</span> </Link>
-              </div>
-              </div>
-              {/* ...existing code... */}
-              <div className="LingBox mb-5 text-xl">
-                <div className=" white-line bg-white h-[3px] w-[250px] rounded-full "></div>
-              <div className="login-singUp my-2">
-                <Link className="flex text-[22px] item-center gap-5" to="#" > <LuBoxes className="text-[28px] " /> <span>All products</span> </Link>
-              </div>
+              <div className="LingBox mb-5 text-base md:text-lg lg:text-xl">
+                <div className="white-line bg-white h-[2px] w-[180px] md:w-[220px] lg:w-[250px] rounded-full"></div>
+                <div className="login-singUp my-2">
+                  <Link className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="#">
+                    <MdOutlineManageAccounts className="text-[20px] md:text-[24px] lg:text-[28px]" />
+                    <span>My Profile</span>
+                  </Link>
+                </div>
               </div>
               {/* ...existing code... */}
-              <div className="LingBox mb-5 text-xl">
-                <div className=" white-line bg-white h-[2px] w-[250px] rounded-full "></div>
-              <div className="login-singUp my-2">
-                <Link className="flex text-[22px] item-center gap-5" to="#" > <TiShoppingCart className="text-[28px] "  /> <span>My Order</span> </Link>
-              </div>
-              </div>
-              {/* ...existing code... */}
-              <div className="LingBox mb-5 text-xl">
-                <div className=" white-line bg-white h-[3px] w-[250px] rounded-full "></div>
-              <div className="login-singUp my-2">
-                <Link className="flex text-[22px] item-center gap-5" to="#" > <FiShoppingCart className="text-[28px] " /> <span>cart</span> </Link>
-              </div>
+              <div className="LingBox mb-5 text-base md:text-lg lg:text-xl">
+                <div className="white-line bg-white h-[2px] w-[180px] md:w-[220px] lg:w-[250px] rounded-full"></div>
+                <div className="login-singUp my-2">
+                  <Link className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="#">
+                    <MdOutlineNotificationsNone className="text-[20px] md:text-[24px] lg:text-[28px]" />
+                    <span>Notification</span>
+                  </Link>
+                </div>
               </div>
               {/* ...existing code... */}
-              <div className="LingBox mb-5 text-xl">
-                <div className=" white-line bg-white h-[2px] w-[250px] rounded-full "></div>
-              <div className="login-singUp my-2">
-                <Link className="flex text-[22px] item-center gap-5" to="#" > <VscHeart className="text-[28px] " /> <span>Wishlist</span> </Link>
+              <div className="LingBox mb-5 text-base md:text-lg lg:text-xl">
+                <div className="white-line bg-white h-[3px] w-[180px] md:w-[220px] lg:w-[250px] rounded-full"></div>
+                <div className="login-singUp my-2">
+                  <Link className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="#">
+                    <LuBoxes className="text-[20px] md:text-[24px] lg:text-[28px]" />
+                    <span>All products</span>
+                  </Link>
+                </div>
               </div>
-              <div className=" white-line bg-white h-[2px] w-[250px] rounded-full "></div>
+              {/* ...existing code... */}
+              <div className="LingBox mb-5 text-base md:text-lg lg:text-xl">
+                <div className="white-line bg-white h-[2px] w-[180px] md:w-[220px] lg:w-[250px] rounded-full"></div>
+                <div className="login-singUp my-2">
+                  <Link className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="#">
+                    <TiShoppingCart className="text-[20px] md:text-[24px] lg:text-[28px]" />
+                    <span>My Order</span>
+                  </Link>
+                </div>
+              </div>
+              {/* ...existing code... */}
+              <div className="LingBox mb-5 text-base md:text-lg lg:text-xl">
+                <div className="white-line bg-white h-[3px] w-[180px] md:w-[220px] lg:w-[250px] rounded-full"></div>
+                <div className="login-singUp my-2">
+                  <Link className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="#">
+                    <FiShoppingCart className="text-[20px] md:text-[24px] lg:text-[28px]" />
+                    <span>cart</span>
+                  </Link>
+                </div>
+              </div>
+              {/* ...existing code... */}
+              <div className="LingBox mb-5 text-base md:text-lg lg:text-xl">
+                <div className="white-line bg-white h-[2px] w-[180px] md:w-[220px] lg:w-[250px] rounded-full"></div>
+                <div className="login-singUp my-2">
+                  <Link className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="#">
+                    <VscHeart className="text-[20px] md:text-[24px] lg:text-[28px]" />
+                    <span>Wishlist</span>
+                  </Link>
+                </div>
+                <div className="white-line bg-white h-[2px] w-[180px] md:w-[220px] lg:w-[250px] rounded-full"></div>
               </div>
               {/* ...existing code... */}
             </div>

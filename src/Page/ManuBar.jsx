@@ -11,12 +11,12 @@ const ManuBar = () => {
 
     <div className="main w-full h-fit px-2 ">
 
-        <div className="row bg-white px-5 py-2 rounded-full flex justify-between shadow-[-2px_1px_10px_6px_rgba(0,_0,_0,_0.1)]
+        <div className="row bg-white px-5 md:px-14 py-2 rounded-full flex justify-between shadow-[-2px_1px_10px_6px_rgba(0,_0,_0,_0.1)]
  ">
-        <Link className='flex flex-col items-center text-[18px] ' to="/"> <IoHomeOutline /> Home </Link>
-        <Link className='flex flex-col items-center text-[18px] ' to="/chat"> <PiChats />  Chat </Link>
-        <Link className='flex flex-col items-center text-[18px] ' to="/cart"> <LiaCartArrowDownSolid/>  Cart </Link>
-        <Link className='flex flex-col items-center text-[18px] ' to="/profile"> <CgProfile/> Profile </Link>
+        <Link className='flex flex-col items-center text-[18px] md:text-xl ' to="/"> <IoHomeOutline /> Home </Link>
+        <Link className='flex flex-col items-center text-[18px] md:text-xl ' to="/chat"> <PiChats />  Chat </Link>
+        <Link className='flex flex-col items-center text-[18px] md:text-xl ' to="/cart"> <LiaCartArrowDownSolid/>  Cart </Link>
+        <Link className='flex flex-col items-center text-[18px] md:text-xl ' to="/profile"> <CgProfile/> Profile </Link>
         </div>
 
     </div>

@@ -5,57 +5,60 @@ import { PiHighHeel } from "react-icons/pi";
 import { BsFillHandbagFill } from "react-icons/bs";
 import { FaRegHeart } from "react-icons/fa";
 import ProductCard from "../component/ProductCard.jsx";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <>
       <div className="main bg-white min-h-screen">
         <div className="w-full h-fit bg-[#e8f4ff94]">
+
           {/* Slider */}
           <div className="first-row w-full h-fit flex flex-col items-center md:items-start md:px-8 lg:px-20 ">
-            <div className="Slider w-[90%] h-[200px] bg-white mt-2 rounded-2xl shadow-2xl md:w-[900px] md:h-[300px] lg:w-[900px] lg:h-[350px] ">
+            <div className="Slider w-[90%] h-[200px] bg-white mt-2 rounded-2xl shadow-2xl md:w-[900px] md:h-[300px] lg:w-[1400px] lg:h-[350px] ">
               <ProductSlider />
             </div>
           </div>
           {/* slider */}
 
+
           {/* Categories */}
-          <div className="Categories w-full h-fit px-4 mt-5 pb-5 md:px-8 lg:px-20 ">
-            <p className="text-[18px] font-semibold ">Categories</p>
+          <div className="Categories w-full h-fit px-4 mt-5 md:mt-10 pb-5 md:px-8 lg:px-20 ">
+            <p className="text-[18px] md:text-2xl font-semibold ">Categories</p>
 
             <div className=" flex justify-center gap-5 mt-5 md:gap-8 lg:gap-12 ">
-              <button className=" w-12 h-12 md:w-[90px] md:h-[90px] md:text-[45px] rounded-full bg-white flex justify-center items-center text-[30px] ">
+              <Link to="/all-categories" className=" w-12 h-12 md:w-[90px] md:h-[90px] md:text-[45px] rounded-full bg-white flex justify-center items-center text-[30px] ">
                 {" "}
                 <GiRunningShoe />{" "}
-              </button>
-              <button className="w-12 h-12 md:w-[90px] md:h-[90px] md:text-[45px] rounded-full bg-white flex justify-center items-center text-[30px] ">
+              </Link>
+              <Link to="/all-categories" className="w-12 h-12 md:w-[90px] md:h-[90px] md:text-[45px] rounded-full bg-white flex justify-center items-center text-[30px] ">
                 {" "}
                 <PiHighHeel />{" "}
-              </button>
-              <button className="w-12 h-12 md:w-[90px] md:h-[90px] md:text-[45px] rounded-full bg-white flex justify-center items-center text-[30px] ">
+              </Link>
+              <Link to="/all-categories" className="w-12 h-12 md:w-[90px] md:h-[90px] md:text-[45px] rounded-full bg-white flex justify-center items-center text-[30px] ">
                 {" "}
                 <BsFillHandbagFill />{" "}
-              </button>
-              <button className="w-12 h-12 md:w-[90px] md:h-[90px] rounded-full bg-white flex justify-center items-center ">
+              </Link>
+              <Link to="/all-categories" className="w-12 h-12 md:w-[90px] md:h-[90px] rounded-full bg-white flex justify-center items-center ">
                 {" "}
                 <img
                   className="w-[70px] md:w-[100px] md:h-[80px] h-[50px]"
                   src="photos/makeUp-icon.png"
                   alt="icon"
                 />{" "}
-              </button>
-              <button className="w-12 h-12 md:w-[90px] md:h-[90px] md:text-[45px] rounded-full bg-white flex justify-center items-center text-[30px] ">
+              </Link>
+              <Link to="/all-categories" className="w-12 h-12 md:w-[90px] md:h-[90px] md:text-[45px] rounded-full bg-white flex justify-center items-center text-[30px] ">
                 {" "}
                 <GiBilledCap />{" "}
-              </button>
+              </Link>
             </div>
           </div>
           {/* Categories */}
         </div>
 
         {/* Best sales */}
-         <div className="best-sales w-full h-fit mt-2 px-4 md:px-8 lg:px-20 ">
-          <p className="text-[18px] font-semibold">Best Sale</p>
+         <div className="best-sales w-full h-fit mt-2 md:mt-5 px-4 md:px-8 lg:px-20 ">
+          <p className="text-[18px] md:text-2xl font-semibold md:mb-5">Best Sale</p>
 
           <div className="single-row w-full flex flex-nowrap gap-5 overflow-x-auto no-scrollbar md:gap-8 lg:gap-12 ">
             
@@ -590,8 +593,8 @@ const Home = () => {
         
 
         {/* All Products */}
-        <div className="best-sales w-full h-fit mt-2 px-4 md:px-8 lg:px-20  ">
-          <p className="text-[18px] font-semibold">All Products</p>
+        <div className="best-sales w-full h-fit mt-2 md:mt-5 px-4 md:px-8 lg:px-20  ">
+          <p className="text-[18px] md:mb-5 md:text-2xl font-semibold">All Products</p>
 
           <div className="all-product w-full flex flex-wrap gap-5 justify-center md:gap-12 lg:gap-16 ">
 

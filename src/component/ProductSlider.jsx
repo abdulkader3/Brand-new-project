@@ -49,7 +49,7 @@ const ProductSlider = () => {
         {slides.map((slide, index) => (
           <div
             key={index}
-            className="w-full flex items-center justify-center gap-4 p-4 md:gap-10 md:p-8 md:min-h-[300px] lg:gap-16 lg:p-12 lg:min-h-[350px] md:flex-row"
+            className="w-full flex items-center justify-center gap-4 p-4 md:gap-10 md:p-8 md:min-h-[300px] lg:gap-[500px] lg:min-h-[350px] md:flex-row"
             style={{ minHeight: "250px" }}
           >
             {/* Text */}
