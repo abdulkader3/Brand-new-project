@@ -16,7 +16,7 @@ const Layout = () => {
         <Outlet />
 
         {/* MenuBar always at the bottom */}
-        <div className="sticky bottom-1 z-50">
+        <div className="sticky bottom-0 z-50">
           <ManuBar/>
         </div>
       </div>
