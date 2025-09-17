@@ -19,7 +19,7 @@ const Navbar = () => {
           <li>
             <Link to="#">
               {" "}
-              <img src="photos/insparetionLogo.webp" alt="logo" />{" "}
+              <img className="w-[60px] md:w-[100px] lg:w-[200px] " src="photos/insparetionLogo.webp" alt="logo" />{" "}
             </Link>
           </li>
 
@@ -27,11 +27,11 @@ const Navbar = () => {
           <li>
             <div className="Search relative">
               <input
-                className="bg-[#4c4c4c50] px-2 py-2 rounded-full outline-0 "
+                className="bg-[#4c4c4c50] px-2 md:px-20 py-2 rounded-full outline-0 "
                 type="search"
                 placeholder="Search"
               />
-              <button className=" absolute text-[20px] top-[10px] right-[10px] hover:scale-125 active:scale-95 transition-all ">
+              <button className=" absolute text-[20px] top-[10px] right-[10px] md:right-[20px] hover:scale-125 active:scale-95 transition-all ">
                 <IoSearchOutline />
               </button>
             </div>
@@ -41,7 +41,7 @@ const Navbar = () => {
           {/* Memo Button */}
           <li>
             <button onClick={() => setMemoOpen((prev) => !prev)}>
-             <FaBarsStaggered className="text-[25px] " /> 
+             <FaBarsStaggered className="text-[25px] md:text-[40px] " /> 
             </button>
           </li>
           {/* Memo Button */}
