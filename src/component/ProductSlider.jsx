@@ -14,7 +14,7 @@ const slides = [
   {
     image: "photos/insparetionProduct3.jpg",
     text: "GET 25% OFF",
-    title: "Featured product summer clothes",
+    title: "New Arrival Sport Shoes",
   },
 ];
 
