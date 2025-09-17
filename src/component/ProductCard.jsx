@@ -1,7 +1,7 @@
 import React from "react";
 import { FaRegHeart } from "react-icons/fa";
 
-const ProductCard = ({ProductImage,ProductPrice,ProductWSize,ProductHSize}) => {
+const ProductCard = ({ProductImage,ProductPrice,ProductWSize,ProductHSize,ProductImageSize}) => {
   return (
     <>
       {/* product card */}
@@ -9,7 +9,7 @@ const ProductCard = ({ProductImage,ProductPrice,ProductWSize,ProductHSize}) => {
   <div className="product w-full flex justify-center md:justify-start lg:justify-center ">
           {" "}
           <img
-            className="w-[90px] md:w-[150px] lg:w-[180px] "
+            className={` ${ProductImageSize?ProductImageSize:"w-[90px]"} md:w-[150px] lg:w-[180px]`}
             src={ProductImage}
             alt="product"
           />{" "}

@@ -54,10 +54,11 @@ const Home = () => {
         </div>
 
         {/* Best sales */}
-  <div className="best-sales w-full h-fit mt-2 px-4 md:px-8 lg:px-20 ">
+         <div className="best-sales w-full h-fit mt-2 px-4 md:px-8 lg:px-20 ">
           <p className="text-[18px] font-semibold">Best Sale</p>
 
           <div className="single-row w-full flex flex-nowrap gap-5 overflow-x-auto no-scrollbar md:gap-8 lg:gap-12 ">
+            
             {/* product card */}
             <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
@@ -65,168 +66,520 @@ const Home = () => {
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct2.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct3.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
                 ProductImage={"photos/insparetionProduct.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct2.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct3.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
                 ProductImage={"photos/insparetionProduct.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct2.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct3.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
                 ProductImage={"photos/insparetionProduct.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct2.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct3.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
                 ProductImage={"photos/insparetionProduct.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct2.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct3.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
                 ProductImage={"photos/insparetionProduct.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct2.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct3.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
                 ProductImage={"photos/insparetionProduct.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct2.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct3.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
                 ProductImage={"photos/insparetionProduct.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct2.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct3.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
                 ProductImage={"photos/insparetionProduct.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct2.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct3.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
                 ProductImage={"photos/insparetionProduct.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct2.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct3.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
                 ProductImage={"photos/insparetionProduct.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct2.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct3.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
                 ProductImage={"photos/insparetionProduct.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct2.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct3.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
                 ProductImage={"photos/insparetionProduct.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct2.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct3.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
                 ProductImage={"photos/insparetionProduct.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct2.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct3.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
                 ProductImage={"photos/insparetionProduct.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct2.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct3.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
                 ProductImage={"photos/insparetionProduct.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct2.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct3.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
                 ProductImage={"photos/insparetionProduct.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct2.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct3.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
                 ProductImage={"photos/insparetionProduct.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct2.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct3.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
                 ProductImage={"photos/insparetionProduct.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct2.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
+              <ProductCard
+                ProductImage={"photos/insparetionProduct3.jpg"}
+                ProductPrice={"Price: $700"}
+              />
+            </div>
+            {/* product card */}
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
                 ProductImage={"photos/insparetionProduct.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
-                ProductImage={"photos/insparetionProduct.jpg"}
+                ProductImage={"photos/insparetionProduct2.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
+            {/* product card */}
+            
+            {/* product card */}
+            <div className="flex-shrink-0 md:flex-shrink md:w-[220px] lg:w-[250px]">
               <ProductCard
-                ProductImage={"photos/insparetionProduct.jpg"}
+                ProductImage={"photos/insparetionProduct3.jpg"}
                 ProductPrice={"Price: $700"}
               />
             </div>
-            <div className="flex-shrink-0">
-              <ProductCard
-                ProductImage={"photos/insparetionProduct.jpg"}
-                ProductPrice={"Price: $700"}
-              />
-            </div>
-            <div className="flex-shrink-0">
-              <ProductCard
-                ProductImage={"photos/insparetionProduct.jpg"}
-                ProductPrice={"Price: $700"}
-              />
-            </div>
-            <div className="flex-shrink-0">
-              <ProductCard
-                ProductImage={"photos/insparetionProduct.jpg"}
-                ProductPrice={"Price: $700"}
-              />
-            </div>
-            <div className="flex-shrink-0">
-              <ProductCard
-                ProductImage={"photos/insparetionProduct.jpg"}
-                ProductPrice={"Price: $700"}
-              />
-            </div>
-            <div className="flex-shrink-0">
-              <ProductCard
-                ProductImage={"photos/insparetionProduct.jpg"}
-                ProductPrice={"Price: $700"}
-              />
-            </div>
-            <div className="flex-shrink-0">
-              <ProductCard
-                ProductImage={"photos/insparetionProduct.jpg"}
-                ProductPrice={"Price: $700"}
-              />
-            </div>
+            {/* product card */}
+           
 
           </div>
 
@@ -237,7 +590,7 @@ const Home = () => {
         
 
         {/* All Products */}
-  <div className="best-sales w-full h-fit mt-2 px-4 md:px-8 lg:px-20  ">
+        <div className="best-sales w-full h-fit mt-2 px-4 md:px-8 lg:px-20  ">
           <p className="text-[18px] font-semibold">All Products</p>
 
           <div className="all-product w-full flex flex-wrap gap-5 justify-center md:gap-12 lg:gap-16 ">
@@ -245,53 +598,436 @@ const Home = () => {
             <ProductCard 
             ProductImage={"photos/insparetionProduct.jpg"}
             ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct2.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct3.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
             
             />
             <ProductCard 
             ProductImage={"photos/insparetionProduct.jpg"}
             ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct2.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct3.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
             
             />
             <ProductCard 
             ProductImage={"photos/insparetionProduct.jpg"}
             ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct2.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct3.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
             
             />
             <ProductCard 
             ProductImage={"photos/insparetionProduct.jpg"}
             ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct2.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct3.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
             
             />
             <ProductCard 
             ProductImage={"photos/insparetionProduct.jpg"}
             ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct2.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct3.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
             
             />
             <ProductCard 
             ProductImage={"photos/insparetionProduct.jpg"}
             ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct2.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct3.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
             
             />
             <ProductCard 
             ProductImage={"photos/insparetionProduct.jpg"}
             ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct2.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct3.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
             
             />
             <ProductCard 
             ProductImage={"photos/insparetionProduct.jpg"}
             ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct2.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct3.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
             
             />
             <ProductCard 
             ProductImage={"photos/insparetionProduct.jpg"}
             ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct2.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct3.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
             
             />
             <ProductCard 
             ProductImage={"photos/insparetionProduct.jpg"}
             ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
             
             />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct2.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct3.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct2.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct3.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct2.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct3.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct2.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct3.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct2.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct3.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct2.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct3.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct2.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct3.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct2.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct3.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct2.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            <ProductCard 
+            ProductImage={"photos/insparetionProduct3.jpg"}
+            ProductPrice={"Price: $700"}
+            ProductWSize={"w-[180px]"}
+            ProductHSize={"h-[190px]"}
+            ProductImageSize={"w-[120px]"}
+            
+            />
+            
             
             
 
