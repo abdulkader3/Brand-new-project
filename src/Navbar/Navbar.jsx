@@ -41,7 +41,7 @@ const Navbar = () => {
           {/* Memo Button */}
           <li>
             <button onClick={() => setMemoOpen((prev) => !prev)}>
-             <FaBarsStaggered /> 
+             <FaBarsStaggered className="text-[25px] " /> 
             </button>
           </li>
           {/* Memo Button */}
