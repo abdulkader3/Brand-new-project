@@ -55,7 +55,7 @@ const Chat = () => {
 
   return (
     <>
-      <div className="w-full h-fit bg-[#ffffffc7] relative pt-5 ">
+  <div className="w-full h-screen bg-[#ffffffc7] relative pt-5 overflow-hidden flex flex-col">
         {/* navigate */}
         <div className="navigate flex justify-between px-4 py-3 text-xl h-fit items-center mb-10 w-full fixed top-15 left-0 z-40 bg-[#ffffff] border-b border-gray-200">
           <Link to="/" className="flex gap-2 items-center">
@@ -69,10 +69,10 @@ const Chat = () => {
           </button>
         </div>
 
-        <div className="h-[60px] md:h-[70px] lg:h-[80px] "></div>
+  <div className="h-[60px] md:h-[70px] lg:h-[80px] shrink-0"></div>
         {/* spacer for fixed nav */}
 
-        <div className="w-full h-[390px] flex flex-col gap-5 overflow-scroll ">
+  <div className="w-full flex-1 flex flex-col gap-5 overflow-y-auto overflow-x-hidden px-0 pb-24" style={{ WebkitOverflowScrolling: 'touch' }}>
           {/* Incoming-message   */}
           <div className="Incoming-message w-full h-fit py-2 px-5 flex items-center gap-4 ">
             <div className="w-14 h-14  rounded-full overflow-hidden shrink-0 ">
