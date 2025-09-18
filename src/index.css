@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+/* Prevent mobile browser zoom on input/textarea focus */
+@media (max-width: 600px) {
+	textarea, input[type="text"], input[type="search"], input[type="password"], input[type="email"] {
+		font-size: 16px !important;
+	}
+}
