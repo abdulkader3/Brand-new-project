@@ -6,13 +6,13 @@ import ManuBar from '../Page/ManuBar.jsx'
 const Layout = () => {
   return (
     <>
-      <div className="flex flex-col min-h-screen w-full">
+  <div className="flex flex-col min-h-screen w-full">
         {/* Navbar always at the top */}
         <div className="sticky top-0 z-50">
           <Navbar />
         </div>
 
-        <div className="flex-1 flex flex-col">
+        <div className="flex-1 flex flex-col pb-40 md:pb-20">
           <Outlet />
         </div>
 

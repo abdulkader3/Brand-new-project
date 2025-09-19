@@ -5,6 +5,7 @@ import Layout from './Layout/Layout.jsx'
 import PageNotFound from './Page/PageNotFound.jsx'
 import Categories from './Categori/Categories.jsx'
 import Chat from './Chat/Chat.jsx'
+import ProductDetails from './component/ProductDetails.jsx'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Route index element={<Home/>}/>
           <Route path='/all-categories' element={<Categories/>}/>
           <Route path='/chat' element={<Chat/>}/>
+          <Route path='/product-details' element={<ProductDetails/>}/>
 
           <Route path='*' element={<PageNotFound/>}/>
         
