@@ -12,7 +12,7 @@ const Layout = () => {
           <Navbar />
         </div>
 
-        <div className="flex-1 flex flex-col pb-40 md:pb-20">
+        <div className="flex-1 flex flex-col pb-10 md:pb-20">
           <Outlet />
         </div>
 

@@ -6,7 +6,7 @@ import { GoShieldCheck } from "react-icons/go";
 const ProductDetails = () => {
   return (
     <>
-      <div className="w-full h-screen bg-white pr-4 ">
+      <div className="w-full h-screen bg-white pr-4 overflow-scroll ">
 
         {/* Image */}
         <div className="product w-full p-18 h-[400px] bg-[#fff] rounded-br-[80px] shadow-[0px_1px_1px_1px_rgba(0,_0,_0,_0.1)] ">
@@ -71,7 +71,7 @@ const ProductDetails = () => {
 
 
           {/* Color Select */}
-          <div className="Color-Select w-full pl-3 pb-3 shadow-[0px_1px_1px_0px_rgba(0,_0,_0,_0.1)] ">
+          <div className="Color-Select w-full pl-3 py-5 shadow-[0px_1px_1px_0px_rgba(0,_0,_0,_0.1)] ">
 
             <p className="font-semibold mr-2">Color select </p>
 
@@ -100,6 +100,32 @@ const ProductDetails = () => {
 
           </div>
           {/* Color Select */}
+
+          {/* Specification */}
+          <div className="w-full text-[14px] font-light mt-5 pb-4 pl-4 shadow-[0px_1px_1px_0px_rgba(0,_0,_0,_0.1)]">
+            
+              <p className="text-[14px] font-semibold mt-5"> 
+                 Specification              
+              </p>
+              <p className="text-[14px] w-[310px]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          </div>
+          {/* Specification */}
+
+
+
+          {/* button */}
+          <div className="w-full flex justify-center gap-5 mt-10">
+           
+           <button className=" bg-gray-300 font-semibold text-black px-8 py-2 " >
+            ADD TO CART
+           </button>
+
+           <button className=" bg-red-700 font-semibold text-white px-8 py-2 " >
+            BUY NOW
+           </button>
+          
+          </div>
+          {/* button */}
 
 
 
