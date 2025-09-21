@@ -43,6 +43,18 @@ export default {
         '80': '80',
         '90': '90',
         '100': '100',
+      },
+      height: {
+        'screen-safe': 'calc(var(--vh, 1vh) * 100)',
+        'dvh': '100dvh',
+        'svh': '100svh',
+        'lvh': '100lvh',
+      },
+      minHeight: {
+        'screen-safe': 'calc(var(--vh, 1vh) * 100)',
+        'dvh': '100dvh',
+        'svh': '100svh',
+        'lvh': '100lvh',
       }
     },
   },

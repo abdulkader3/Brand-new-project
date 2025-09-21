@@ -6,7 +6,7 @@ import { GoShieldCheck } from "react-icons/go";
 const ProductDetails = () => {
   return (
     <>
-      <div className="w-full h-screen bg-white pr-4 overflow-scroll md:px-8 lg:overflow-hidden lg:px-12 xl:px-20">
+      <div className="w-full mobile-safe-height bg-white pr-4 overflow-scroll md:px-8 lg:overflow-hidden lg:px-12 xl:px-20">
 
         {/* Main Content Container for Desktop Layout */}
         <div className="lg:flex lg:gap-8 lg:max-w-7xl lg:mx-auto lg:h-screen">
@@ -125,7 +125,7 @@ const ProductDetails = () => {
 
 
           {/* button */}
-          <div className="w-full flex justify-center gap-5 md:gap-8 lg:gap-10 mt-10 md:mt-12 lg:mt-16 mb-8 md:mb-12 lg:mb-16">
+          <div className="w-full flex justify-center gap-5 md:gap-8 lg:gap-10 mt-10 md:mt-12 lg:mt-16 mobile-button-safe">
            
            <button className="bg-gray-300 font-semibold text-black px-6 md:px-8 lg:px-12 py-2 md:py-3 lg:py-4 text-sm md:text-base lg:text-lg rounded-lg hover:bg-gray-400 transition-colors" >
             ADD TO CART
