@@ -6,3 +6,59 @@
 		font-size: 16px !important;
 	}
 }
+
+/* Custom responsive utilities */
+@media (min-width: 768px) {
+  /* Tablet styles */
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Desktop styles */
+  .container-responsive {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  /* Enhanced shadows for larger screens */
+  .shadow-enhanced {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+}
+
+@media (min-width: 1280px) {
+  /* Large desktop styles */
+  .container-responsive {
+    max-width: 1400px;
+    padding: 0 3rem;
+  }
+}
+
+/* Smooth transitions for responsive elements */
+.responsive-transition {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Custom scrollbar for webkit browsers on larger screens */
+@media (min-width: 768px) {
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+  }
+}
