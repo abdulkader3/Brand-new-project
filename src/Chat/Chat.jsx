@@ -72,7 +72,7 @@ const Chat = () => {
   <div className="h-[60px] md:h-[70px] lg:h-[80px] shrink-0"></div>
         {/* spacer for fixed nav */}
 
-  <div className="w-full flex-1 flex flex-col gap-5 overflow-y-auto overflow-x-hidden px-0 pb-24" style={{ WebkitOverflowScrolling: 'touch' }}>
+  <div className="w-full flex-1 flex flex-col gap-5 overflow-y-auto overflow-x-hidden px-0 mobile-chat-messages-safe" style={{ WebkitOverflowScrolling: 'touch' }}>
           {/* Incoming-message   */}
           <div className="Incoming-message w-full h-fit py-2 px-5 flex items-center gap-4 ">
             <div className="w-14 h-14  rounded-full overflow-hidden shrink-0 ">
@@ -147,7 +147,7 @@ const Chat = () => {
 
         {/* textarea  */}
         <div
-          className="w-full fixed left-0 bottom-16 flex items-center pr-16 pl-5 bg-white rounded-2xl shadow-[0px_2px_8px_5px_rgba(0,_0,_0,_0.1)]"
+          className="w-full fixed left-0 mobile-chat-input-safe flex items-center pr-16 pl-5 bg-white rounded-2xl shadow-[0px_2px_8px_5px_rgba(0,_0,_0,_0.1)]"
           style={{ zIndex: 49 }}
         >
           {/* area  */}
