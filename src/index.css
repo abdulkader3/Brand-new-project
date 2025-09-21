@@ -39,15 +39,6 @@
   padding-bottom: calc(3rem + var(--safe-area-inset-bottom));
 }
 
-/* Chat-specific safe positioning for mobile browsers */
-.mobile-chat-input-safe {
-  bottom: calc(4rem + var(--safe-area-inset-bottom));
-}
-
-.mobile-chat-messages-safe {
-  padding-bottom: calc(8rem + var(--safe-area-inset-bottom));
-}
-
 /* Ensure buttons are always above mobile browser UI */
 .mobile-button-safe {
   margin-bottom: calc(2rem + var(--safe-area-inset-bottom));
