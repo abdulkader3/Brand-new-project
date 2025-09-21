@@ -17,7 +17,7 @@ const Navbar = () => {
         <ul className="flex justify-between px-2 items-center py-2  bg-white lg:px-12">
 
           <li>
-            <Link to="#">
+            <Link to="/">
               {" "}
               <img className="w-[60px] md:w-[100px] " src="photos/insparetionLogo.webp" alt="logo" />{" "}
             </Link>
