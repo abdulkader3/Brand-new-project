@@ -19,7 +19,7 @@ const Navbar = () => {
           <li>
             <Link to="/">
               {" "}
-              <img className="w-[60px] md:w-[100px] " src="photos/insparetionLogo.webp" alt="logo" />{" "}
+              <img className="w-[60px] md:w-[100px] " src="photos/main-logo.png" alt="logo" />{" "}
             </Link>
           </li>
 
@@ -51,7 +51,7 @@ const Navbar = () => {
 
         {/* memo content */}
         <div
-          className={`w-fit h-screen rounded-2xl fixed top-14 right-0 bg-[#eff7ff] py-5 px-10 shadow-[-2px_1px_10px_6px_rgba(0,_0,_0,_0.1)] transition-transform duration-500 ease-in-out z-50
+          className={`w-fit h-screen rounded-2xl fixed top-14 lg:top-20 right-0 bg-[#eff7ff] py-5 px-10 shadow-[-2px_1px_10px_6px_rgba(0,_0,_0,_0.1)] transition-transform duration-500 ease-in-out z-50
             ${memoOpen ? "translate-x-0" : "translate-x-full"}`}
         >
           <div className="profile-Image flex flex-col items-center">
