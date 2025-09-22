@@ -83,16 +83,18 @@ const Home = () => {
                     >
                       <BsFillHandbagFill />
                     </Link>
+
                     <Link
                       to="/all-categories"
                       className="w-12 h-12 rounded-full bg-white flex justify-center items-center hover:shadow-md transition-shadow"
                     >
                       <img
-                        className="w-8 h-6 object-contain"
+                        className="w-12 h-6 object-contain"
                         src="photos/makeUp-icon.png"
                         alt="icon"
                       />
                     </Link>
+
                     <Link
                       to="/all-categories"
                       className="w-12 h-12 rounded-full bg-white flex justify-center items-center text-2xl hover:shadow-md transition-shadow"
