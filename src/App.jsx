@@ -6,6 +6,8 @@ import PageNotFound from './Page/PageNotFound.jsx'
 import Categories from './Categori/Categories.jsx'
 import Chat from './Chat/Chat.jsx'
 import ProductDetails from './component/ProductDetails.jsx'
+import Cart from './Cart/Cart.jsx'
+import Profile from './Profile/Profile.jsx'
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
           <Route path='/all-categories' element={<Categories/>}/>
           <Route path='/chat' element={<Chat/>}/>
           <Route path='/product-details' element={<ProductDetails/>}/>
+          <Route path='/cart' element={<Cart/>}/>
+          <Route path='/profile' element={<Profile/>}/>
 
           <Route path='*' element={<PageNotFound/>}/>
         
