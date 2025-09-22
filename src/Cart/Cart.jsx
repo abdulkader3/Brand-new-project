@@ -156,7 +156,7 @@ const Cart = () => {
           </div>
 
           {/* Main Content Container - Responsive Layout */}
-          <div className="flex-1 flex flex-col lg:flex-row lg:gap-8 lg:px-8 lg:py-6 overflow-y-auto">
+          <div className="flex-1 flex flex-col lg:flex-row lg:gap-8 lg:px-8 lg:py-6">
             
             {/* Left Column - Cart Items (Desktop: 2/3 width) */}
             <div className="flex-1 lg:flex-[2]">
