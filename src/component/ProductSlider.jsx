@@ -37,10 +37,10 @@ const ProductSlider = () => {
   }, [currentIndex]);
 
   return (
-  <div className="relative w-full overflow-hidden md:h-[300px] lg:h-[350px]">
+  <div className="relative w-full h-full overflow-hidden rounded-2xl">
       {/* Track */}
       <div
-        className="flex transition-transform duration-1000 ease-in-out"
+        className="flex h-full transition-transform duration-1000 ease-in-out"
         style={{
           width: `${slides.length * 100}%`,
           transform: `translateX(-${currentIndex * (100 / slides.length)}%)`,
@@ -49,8 +49,7 @@ const ProductSlider = () => {
         {slides.map((slide, index) => (
           <div
             key={index}
-            className="w-full flex items-center justify-center gap-4 p-4 md:gap-10 md:p-8 md:min-h-[300px] lg:gap-[500px] lg:min-h-[350px] md:flex-row"
-            style={{ minHeight: "250px" }}
+            className="w-full h-full flex items-center justify-center gap-4 p-4 md:gap-10 md:p-8 lg:gap-[80px] xl:gap-[120px]"
           >
             {/* Text */}
             <div
@@ -66,14 +65,14 @@ const ProductSlider = () => {
             <img
               src={slide.image}
               alt={`Slide ${index + 1}`}
-              className="w-32 h-32 object-cover rounded-lg shadow md:w-48 md:h-48 lg:w-56 lg:h-56"
+              className="w-32 h-32 object-cover rounded-lg shadow md:w-48 md:h-48 lg:w-56 lg:h-56 flex-shrink-0"
             />
           </div>
         ))}
       </div>
 
       {/* Dots */}
-      <div className="absolute flex bottom-[60px] left-5 gap-2 md:left-10 lg:left-20 md:bottom-[30px] lg:bottom-[20px]">
+      <div className="absolute flex bottom-[20px] left-5 gap-2 md:left-10 lg:left-20">
         {slides.map((_, index) => (
           <div
             key={index}
