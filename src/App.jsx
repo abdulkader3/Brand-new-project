@@ -8,6 +8,11 @@ import Chat from './Chat/Chat.jsx'
 import ProductDetails from './component/ProductDetails.jsx'
 import Cart from './Cart/Cart.jsx'
 import Profile from './Profile/Profile.jsx'
+import Register from './User/Register.jsx'
+import Login from './User/Login.jsx'
+import Notification from './User/Notification.jsx'
+import MyOrder from './User/MyOrder.jsx'
+import Wishlist from './User/Wishlist.jsx'
 
 function App() {
 
@@ -23,6 +28,11 @@ function App() {
           <Route path='/product-details' element={<ProductDetails/>}/>
           <Route path='/cart' element={<Cart/>}/>
           <Route path='/profile' element={<Profile/>}/>
+          <Route path='/register' element={<Register/>}/>
+          <Route path='/login' element={<Login/>}/>
+          <Route path='/notification' element={<Notification/>}/>
+          <Route path='/my-order' element={<MyOrder/>}/>
+          <Route path='/wishlist' element={<Wishlist/>}/>
 
           <Route path='*' element={<PageNotFound/>}/>
         

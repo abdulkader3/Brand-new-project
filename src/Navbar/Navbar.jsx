@@ -71,7 +71,7 @@ const Navbar = () => {
               <div className="LingBox mb-5 text-base md:text-lg lg:text-xl">
                 <div className="white-line bg-white h-[2px] w-[180px] md:w-[220px] lg:w-[250px] rounded-full"></div>
                 <div className="login-singUp my-2">
-                  <Link className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="#">
+                  <Link onClick={() => setMemoOpen((prev) => !prev)} className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="/login">
                     <CgProfile className="text-[20px] md:text-[24px] lg:text-[28px]" />
                     <span>Login/Sing Up</span>
                   </Link>
@@ -81,7 +81,7 @@ const Navbar = () => {
               <div className="LingBox mb-5 text-base md:text-lg lg:text-xl">
                 <div className="white-line bg-white h-[2px] w-[180px] md:w-[220px] lg:w-[250px] rounded-full"></div>
                 <div className="login-singUp my-2">
-                  <Link className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="#">
+                  <Link onClick={() => setMemoOpen((prev) => !prev)} className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="/profile">
                     <MdOutlineManageAccounts className="text-[20px] md:text-[24px] lg:text-[28px]" />
                     <span>My Profile</span>
                   </Link>
@@ -91,7 +91,7 @@ const Navbar = () => {
               <div className="LingBox mb-5 text-base md:text-lg lg:text-xl">
                 <div className="white-line bg-white h-[2px] w-[180px] md:w-[220px] lg:w-[250px] rounded-full"></div>
                 <div className="login-singUp my-2">
-                  <Link className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="#">
+                  <Link onClick={() => setMemoOpen((prev) => !prev)} className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="/notification">
                     <MdOutlineNotificationsNone className="text-[20px] md:text-[24px] lg:text-[28px]" />
                     <span>Notification</span>
                   </Link>
@@ -101,7 +101,7 @@ const Navbar = () => {
               <div className="LingBox mb-5 text-base md:text-lg lg:text-xl">
                 <div className="white-line bg-white h-[3px] w-[180px] md:w-[220px] lg:w-[250px] rounded-full"></div>
                 <div className="login-singUp my-2">
-                  <Link className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="#">
+                  <Link onClick={() => setMemoOpen((prev) => !prev)} className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="/all-categories">
                     <LuBoxes className="text-[20px] md:text-[24px] lg:text-[28px]" />
                     <span>All products</span>
                   </Link>
@@ -111,7 +111,7 @@ const Navbar = () => {
               <div className="LingBox mb-5 text-base md:text-lg lg:text-xl">
                 <div className="white-line bg-white h-[2px] w-[180px] md:w-[220px] lg:w-[250px] rounded-full"></div>
                 <div className="login-singUp my-2">
-                  <Link className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="#">
+                  <Link onClick={() => setMemoOpen((prev) => !prev)} className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="/my-order">
                     <TiShoppingCart className="text-[20px] md:text-[24px] lg:text-[28px]" />
                     <span>My Order</span>
                   </Link>
@@ -121,7 +121,7 @@ const Navbar = () => {
               <div className="LingBox mb-5 text-base md:text-lg lg:text-xl">
                 <div className="white-line bg-white h-[3px] w-[180px] md:w-[220px] lg:w-[250px] rounded-full"></div>
                 <div className="login-singUp my-2">
-                  <Link className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="#">
+                  <Link onClick={() => setMemoOpen((prev) => !prev)} className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="/cart">
                     <FiShoppingCart className="text-[20px] md:text-[24px] lg:text-[28px]" />
                     <span>cart</span>
                   </Link>
@@ -131,7 +131,7 @@ const Navbar = () => {
               <div className="LingBox mb-5 text-base md:text-lg lg:text-xl">
                 <div className="white-line bg-white h-[2px] w-[180px] md:w-[220px] lg:w-[250px] rounded-full"></div>
                 <div className="login-singUp my-2">
-                  <Link className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="#">
+                  <Link onClick={() => setMemoOpen((prev) => !prev)} className="flex items-center gap-2 md:gap-4 lg:gap-5 text-[16px] md:text-[20px] lg:text-[22px]" to="/wishlist">
                     <VscHeart className="text-[20px] md:text-[24px] lg:text-[28px]" />
                     <span>Wishlist</span>
                   </Link>
