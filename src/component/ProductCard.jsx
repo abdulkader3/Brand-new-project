@@ -7,7 +7,8 @@ const ProductCard = ({
   ProductWSize,
   ProductHSize,
   ProductImageSize,
-  color
+  color,
+  wish
 }) => {
   return (
     <>
@@ -29,7 +30,7 @@ const ProductCard = ({
         </div>
         <div className="price-and-addCard w-full flex justify-between items-center md:text-lg lg:text-xl ">
           <p> {ProductPrice} </p>
-          <button>
+          <button className={`${wish ? "p-1 bg-purple-600 rounded-full text-white" : wish }`}>
             {" "}
             <FaRegHeart />{" "}
           </button>
