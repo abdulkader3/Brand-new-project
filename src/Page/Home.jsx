@@ -511,7 +511,7 @@ const Home = () => {
                 <ProductCard
                   ProductImage={"photos/insparetionProduct.jpg"}
                   ProductPrice={"Price: $700"}
-                  ProductWSize={"w-[120px]"}
+                  ProductWSize={"w-[100px] sm:w-[120px]"}
                   ProductHSize={"h-[160px] md:h-[180px]"}
                   ProductImageSize={"w-[80px] md:w-[100px]"}
                 />
@@ -520,7 +520,7 @@ const Home = () => {
                 <ProductCard
                   ProductImage={"photos/insparetionProduct2.jpg"}
                   ProductPrice={"Price: $700"}
-                  ProductWSize={"w-[120px]"}
+                  ProductWSize={"w-[100px] sm:w-[120px]"}
                   ProductHSize={"h-[160px] md:h-[180px]"}
                   ProductImageSize={"w-[80px] md:w-[100px]"}
                 />
@@ -529,7 +529,61 @@ const Home = () => {
                 <ProductCard
                   ProductImage={"photos/insparetionProduct3.jpg"}
                   ProductPrice={"Price: $700"}
-                  ProductWSize={"w-[120px]"}
+                  ProductWSize={"w-[100px] sm:w-[120px]"}
+                  ProductHSize={"h-[160px] md:h-[180px]"}
+                  ProductImageSize={"w-[80px] md:w-[100px]"}
+                />
+              </Link>
+              <Link to="/product-details">
+                <ProductCard
+                  ProductImage={"photos/insparetionProduct.jpg"}
+                  ProductPrice={"Price: $700"}
+                  ProductWSize={"w-[100px] sm:w-[120px]"}
+                  ProductHSize={"h-[160px] md:h-[180px]"}
+                  ProductImageSize={"w-[80px] md:w-[100px]"}
+                />
+              </Link>
+              <Link to="/product-details">
+                <ProductCard
+                  ProductImage={"photos/insparetionProduct2.jpg"}
+                  ProductPrice={"Price: $700"}
+                  ProductWSize={"w-[100px] sm:w-[120px]"}
+                  ProductHSize={"h-[160px] md:h-[180px]"}
+                  ProductImageSize={"w-[80px] md:w-[100px]"}
+                />
+              </Link>
+              <Link to="/product-details">
+                <ProductCard
+                  ProductImage={"photos/insparetionProduct3.jpg"}
+                  ProductPrice={"Price: $700"}
+                  ProductWSize={"w-[100px] sm:w-[120px]"}
+                  ProductHSize={"h-[160px] md:h-[180px]"}
+                  ProductImageSize={"w-[80px] md:w-[100px]"}
+                />
+              </Link>
+              <Link to="/product-details">
+                <ProductCard
+                  ProductImage={"photos/insparetionProduct.jpg"}
+                  ProductPrice={"Price: $700"}
+                  ProductWSize={"w-[100px] sm:w-[120px]"}
+                  ProductHSize={"h-[160px] md:h-[180px]"}
+                  ProductImageSize={"w-[80px] md:w-[100px]"}
+                />
+              </Link>
+              <Link to="/product-details">
+                <ProductCard
+                  ProductImage={"photos/insparetionProduct2.jpg"}
+                  ProductPrice={"Price: $700"}
+                  ProductWSize={"w-[100px] sm:w-[120px]"}
+                  ProductHSize={"h-[160px] md:h-[180px]"}
+                  ProductImageSize={"w-[80px] md:w-[100px]"}
+                />
+              </Link>
+              <Link to="/product-details">
+                <ProductCard
+                  ProductImage={"photos/insparetionProduct3.jpg"}
+                  ProductPrice={"Price: $700"}
+                  ProductWSize={"w-[100px] sm:w-[120px]"}
                   ProductHSize={"h-[160px] md:h-[180px]"}
                   ProductImageSize={"w-[80px] md:w-[100px]"}
                 />
