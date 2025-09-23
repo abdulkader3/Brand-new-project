@@ -27,11 +27,11 @@ const Navbar = () => {
           <li>
             <div className="Search relative">
               <input
-                className="bg-[#4c4c4c50] px-2 md:px-20 lg:px-40 py-2 rounded-full outline-0 "
+                className="bg-[#4c4c4c50] px-1 md:px-20 lg:px-40 py-1 md:py-2 rounded-full outline-0 "
                 type="search"
                 placeholder="Search"
               />
-              <button className=" absolute text-[20px] top-[10px] right-[10px] md:right-[20px] hover:scale-125 active:scale-95 transition-all ">
+              <button className=" absolute text-[20px] top-[7px] md:top-[10px] right-[14px] md:right-[20px] hover:scale-125 active:scale-95 transition-all ">
                 <IoSearchOutline />
               </button>
             </div>
