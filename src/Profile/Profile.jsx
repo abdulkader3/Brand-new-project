@@ -49,11 +49,11 @@ const Profile = () => {
         <div className="space-y-4">
           <div className="flex justify-between items-center py-2 border-b border-gray-100">
             <span className="text-gray-600 font-medium">Full Name</span>
-            <span className="text-blue-600 font-medium">Don Normane</span>
+            <span className="text-blue-600 font-medium">Saiful Islam</span>
           </div>
 
           <div className="flex justify-between items-center py-2 border-b border-gray-100">
-            <span className="text-gray-600 font-medium">User Name</span>
+            <span className="text-gray-600 font-medium">al_safa</span>
             <span className="text-orange-600 font-medium">john007</span>
           </div>
 
