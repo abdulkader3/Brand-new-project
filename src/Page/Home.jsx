@@ -274,7 +274,7 @@ const Home = () => {
           <div className="p-6 border-b border-gray-200">
             <div className="flex flex-col items-center">
               <div className="w-20 h-20 xl:w-24 xl:h-24 rounded-full overflow-hidden mb-4 ring-2 ring-blue-100">
-                <img src="photos/demoProfileImage.webp" alt="profile" className="w-full h-full object-cover" />
+                <img src="photos/profile.png" alt="profile" className="w-full h-full object-cover" />
               </div>
               <div className="text-center">
                 <p className="font-bold text-lg xl:text-xl">Name Joni</p>

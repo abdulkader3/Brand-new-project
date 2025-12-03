@@ -56,7 +56,7 @@ const Navbar = () => {
         >
           <div className="profile-Image flex flex-col items-center">
             <div className="profilePhotos w-[100px] rounded-full overflow-hidden ">
-              <img className="w-full" src="photos/demoProfileImage.webp" alt="profile" />
+              <img className="w-full" src="photos/profile.png" alt="profile" />
             </div>
             {/* name id */}
             <div className="Name-id text-center ">

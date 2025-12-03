@@ -15,7 +15,7 @@ const Profile = () => {
         <div className="flex items-start gap-4 mb-6">
           <div className="w-20 h-20 rounded-xl overflow-hidden bg-gray-200">
             <img 
-              src="/photos/demoProfileImage.webp" 
+              src="/photos/profile.png" 
               alt="Profile" 
               className="w-full h-full object-cover"
             />
@@ -145,7 +145,7 @@ const Profile = () => {
             <div className="flex items-start gap-4 mb-6">
               <div className="w-20 h-20 rounded-xl overflow-hidden bg-gray-200">
                 <img 
-                  src="/photos/demoProfileImage.webp" 
+                  src="/photos/profile.png" 
                   alt="Profile" 
                   className="w-full h-full object-cover"
                 />
