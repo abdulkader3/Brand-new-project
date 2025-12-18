@@ -16,7 +16,7 @@ const ProductCard = ({
       <div
         className={`${ProductWSize ? ProductWSize : "w-[180px]"} ${
           ProductHSize ? ProductHSize : "h-[150px]"
-        } ${color?color:"bg-[#e8f4ff94]"} rounded-xl px-2 py-2 flex flex-col justify-between md:w-[220px] md:h-[220px] lg:w-[250px] lg:h-[250px]`}
+        } ${color?color:"bg-[#e8f4ff94]"} rounded-xl px-2 py-2 flex flex-col justify-between md:w-[220px] md:h-[220px] lg:w-[250px] lg:h-[250px] product-card `}
       >
         <div className="product w-full flex justify-center ">
           {" "}
