@@ -2,6 +2,7 @@ import React from "react";
 import { CiHeart } from "react-icons/ci";
 import { FaStar } from "react-icons/fa";
 import { GoShieldCheck } from "react-icons/go";
+import { Link } from "react-router-dom";
 
 const ProductDetails = () => {
   return (
@@ -128,18 +129,21 @@ const ProductDetails = () => {
           <div className="w-full flex justify-center gap-5 md:gap-8 lg:gap-10 mt-10 md:mt-12 lg:mt-16 mobile-button-safe">
            
            <button className="bg-gray-300 font-semibold text-black px-6 md:px-8 lg:px-12 py-2 md:py-3 lg:py-4 text-sm md:text-base lg:text-lg rounded-lg hover:bg-gray-400 transition-colors" >
-            ADD TO CART
+            <Link to="/cart"> ADD TO CART </Link>
            </button>
 
            <button className="bg-red-700 font-semibold text-white px-6 md:px-8 lg:px-12 py-2 md:py-3 lg:py-4 text-sm md:text-base lg:text-lg rounded-lg hover:bg-red-800 transition-colors" >
-            BUY NOW
+            <Link to="/cart"> ADD TO CART </Link>
            </button>
           
           </div>
           {/* button */}
 
           </div> {/* End Right Column */}
+
+
         </div> {/* End Main Content Container */}
+
       </div>
     </>
   );

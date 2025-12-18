@@ -27,7 +27,7 @@ const Navbar = () => {
           <li>
             <div className="Search relative">
               <input
-                className="bg-[#4c4c4c50] px-1 md:px-20 lg:px-40 py-1 md:py-2 rounded-full outline-0 "
+                className=" w-[250px] md:w-[350px] lg:w-[450px] bg-[#eeeeee] px-10 md:px-12 lg:px-10 py-1 md:py-2 rounded-full outline-0 "
                 type="search"
                 placeholder="Search"
               />

@@ -5,8 +5,14 @@ import { PiChats } from "react-icons/pi";
 import { LiaCartArrowDownSolid } from "react-icons/lia";
 import { CgProfile } from "react-icons/cg";
 import { Link } from "react-router-dom";
+import { BounceLoader } from "react-spinners";
 
 const Cart = () => {
+
+  const [isLoading , setIsLoading] = useState(false)
+  const RunProcess = ()=>{
+    setIsLoading(!isLoading)
+  }
 
   const [cartItems, setCartItems] = useState([
     {
@@ -301,8 +307,8 @@ const Cart = () => {
                 </div>
 
                 {/* Checkout Button */}
-                <button className="w-full bg-green-500 text-white py-4 px-6 rounded-xl font-bold text-lg md:text-xl hover:bg-green-600 transition-colors shadow-sm">
-                  PROCEED TO CHECKOUT
+                <button onClick={RunProcess} className="w-full bg-green-500 text-white py-4 px-6 rounded-xl font-bold text-lg md:text-xl hover:bg-green-600 transition-colors shadow-sm">
+                  {isLoading ? <BounceLoader /> : "PROCEED TO CHECKOUT"}
                 </button>
               </div>
             </div>
